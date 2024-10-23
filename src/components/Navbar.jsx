@@ -3,44 +3,48 @@ import React from 'react'
 const Navbar = ({ className, style }) => {
 return (
     <>
-    <nav className="flex justify-between items-center w-5/6 gap-8 text-white p-3 navbar navbar-expand-lg navbar-light bg-light">
-        <div className='flex justify-center items-center gap-4'>
-        {/* Title */}
-            <div className='flex justify-end items-center'>
-                <img src="\image\Logo.png" alt="logo" className='w-8 h-8 '/>
-                <h2 className=''>Untitled UI</h2>
-            </div>
+    <nav className="flex justify-between items-center w-screen h-[80px] gap-8 text-white p-3 navbar navbar-expand-lg navbar-light bg-purple-800">
+        <header className='flex justify-center items-center w-screen h-[80px]'>
+            <div className='w-[1280px] h-[44px] flex justify-between px-[32px]'>
+                <div className='flex justify-center items-center w-[586px] h-[32px] gap-[40px]'>
+                {/* Logo */}
+                    <div className='flex text-center w-[142px] h-[32px]'>
+                        <img src="\image\Logo.png" alt="logo" className='w-[32px] h-[32px]'/>
+                        <h2 className='w-[100px] h-[32px] left-[42px]'>Untitled UI</h2>
+                    </div>
 
-            {/* NAVBAR LINK */}
-            <div>
-                <ul className='flex justify-between gap-8 items-center'>
-                    <li> <a href='#'>Home</a></li>
-                    <li>
-                        <select name="Products" id="Products" className='bg-purple-900 outline-none'>
-                            <option value="">Products</option>
-                            <option value="/home">Product 1</option>
-                            <option value="/home">Product 2</option>
-                            <option value="/home">Product 3</option>
-                        </select>   
-                    </li>
-                    <li>
-                        <select name="Resources" id="Resources" className='bg-purple-900  outline-none'>
-                            <option value="">Resources</option>
-                            <option value="/home">Resource 1</option>
-                            <option value="/home">Resource 2</option>
-                            <option value="/home">Resource 3</option>
-                        </select>   
-                    </li>
-                </ul>
-            </div>
-        </div>
+                    {/* Navigation */}
+                    <div className=''>
+                        <ul className='flex items-center w-[404px] h-[32px] gap-[32px]'>
+                            <li className='W-[46px] h-[24px] gap-[8px]'> <a href='#'>Home</a></li>
+                            <li className='W-[98px] h-[32px] py-[4px]'>
+                                <select name="Products" id="Products" className='bg-purple-800 outline-none'>
+                                    <option value="">Products</option>
+                                    <option value="/home">Product 1</option>
+                                    <option value="/home">Product 2</option>
+                                    <option value="/home">Product 3</option>
+                                </select>   
+                            </li>
+                            <li className='W-[110px] h-[32px] py-[4px]'>
+                                <select name="Resources" id="Resources" className='bg-purple-800  outline-none'>
+                                    <option value="">Resources</option>
+                                    <option value="/home">Resource 1</option>
+                                    <option value="/home">Resource 2</option>
+                                    <option value="/home">Resource 3</option>
+                                </select>   
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            {/* NAVBAR BUTTON */}
-            <div>
-                <button className=' hover:bg-purple-600  px-4 py-2 rounded-lg'>Log in</button>
-                <button className='hover:bg-purple-600 px-4 py-2 rounded-lg'>Sign up</button>
+                {/* NAVBAR BUTTON */}
+                <div className='W-[190px] h-[44px] gap-[12px]'>
+                        <button className=' hover:bg-purple-600 w-[83px] h-[44px] px-[18px] py-[10px] rounded-lg'>Log in</button>
+                        <button className='hover:bg-purple-600  w-[95px] h-[44px] px-[18px] py-[10px] rounded-lg'>Sign up</button>
+                </div>
+                
             </div>
-        
+        </header>
      </nav>
     </>
 )

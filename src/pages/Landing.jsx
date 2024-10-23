@@ -8,7 +8,7 @@ const Landing = () => {
         <Navbar />
      </div>
     
-    {/* BEGINNING OF LANDING PAGE */}
+    {/* HERO HEADER SECTION */}
 
     <section className='bg-purple-800 text-white w-screen h-[1108px] py-[96px] gap-[64px] flex flex-col justify-center items-center'>
 
@@ -52,7 +52,7 @@ const Landing = () => {
         </div>
     </section> 
 
-    {/* SECTION 2   */}
+    {/*SOCIAL PROOF SECTION*/}
     <section className='bg-purple-800  flex justify-center text-white w-screen h-[200px] pt-[96px]'>
         <div className='w-[1280px] h-[104px] flex flex-col px-[32px] gap-[32px] items-center'>
             <div className='w-[1216px] h-[24px] text-center'><p>We’ve worked with some great startups</p></div>
@@ -68,8 +68,10 @@ const Landing = () => {
         </div>
     </section>
 
-    {/* SECTION 3 */}
+    {/* FEATURES SECTION */}
     <section className='w-screen h-[1012px] bg-white'>
+
+        {/* SECTION 3.1 */}
 
         <div className=' flex justify-center bg-gray-50 w-screen h-[396px] pt-[96px] pb-[160px] gap-[64px]'>
             <div className='flex justify-center w-[1280px] h-[240px]px-32 gap-[96px]'>
@@ -116,7 +118,7 @@ const Landing = () => {
         </div>
 
         {/* SECTION 3.2 */}
-        <div className=' flex justify-center w-screen h-[612px] pb-[96px]'>
+        <div className=' flex justify-center w-screen h-[612px]  pb-[96px]'>
             <div className='w-[1280px] h-[516px] px-[32px]'>
                 <img src="\image\img11.png" alt="Interior design example" className='w-[1216px] h-[516px]'/>
 
@@ -124,9 +126,49 @@ const Landing = () => {
 
         </div>
 
+    </section>
 
+    {/* Testimonial Content */}
+    <section className='flex justify-center items-center w-screen h-[520px] py-[96px] gap-[64px] bg-gray-50'>
+        <div className='w-[1280px] h-[328px] px-[32px] gap-[32px]'>
+            <div className='flex w-[1216px] h-[328px] gap-[128px]'>
+                <img src='\image\img12.png' alt='Testimonial image' className='w-[328px] h-[328px] rounded-2xl'/>
+
+                <div className='w-[760px] h-[264px] gap-[32px]'>
+                    <div className='w-[760px] h-[176px] gap-[24px]'>
+                        <img src='\image\img13.png' alt='Five stars' className='w-[116px] h-[20px] gap-[4px]' />
+
+                        <p className='w-[760px] h-[132px] text-gray-900 leading-[44px] text-4xl font-medium'>Untitled really understood the paired-back aesthetic that we were looking
+                        for. We couldn’t be happier with our new offices.</p>
+
+                    </div>
+
+                    <div className='w-[760px] h-[56px] gap-[4px]'>
+                        <p className='h-[28px] font-semibold text-lg leading-7 text-gray-900'>— Candice Wu</p>
+                        <p className='h-[24px] font-normal text-xs leading-6 text-gray-600'>Head of Design, Layers</p> 
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
+
+    {/* Metric Section */}
+
+    <section className='flex justify-center items-center w-screen h-[432px] py-24 gap-16 bg-white'>
+        <div className='flex justify-center items-center w-[1280px] h-[240px] py-8 gap-16'>
+            <div className='w-[1216px] h-[240px] border-t border-b border-gray-200 py-16 gap-4'>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+
         
     </>
   )
