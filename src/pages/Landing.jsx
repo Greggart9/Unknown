@@ -315,9 +315,19 @@ return (
 
 
             </div>
+             
+             {/* Container 2 */}
+            <div className=' w-[1280px] h-[56px] px-[32px] gap-8 flex justify-center'>
+                <div className=' flex w-[1216px] h-[56px] border-t-2 border-gray-200 pt-8 gap-8 '>
+                    <p className='text-gray-500 text-lg font-normal leading-6 w-[988px] h-[24px]'>© 2024 Untitled UI. All rights reserved.</p>
 
-            <div className='w-[1280px] h-[56px] px-[32px] gap-8  bg-red-500'>
-                
+                    <div className='w-[196px] h-[24px] gap-4 flex'>
+                        <a href='/' className='text-gray-500 text-lg font-normal leading-6'>Terms</a>
+                        <a href='/' className='text-gray-500 text-lg font-normal leading-6'>Privacy</a>
+                        <a href='/' className='text-gray-500 text-lg font-normal leading-6'>Cookies</a>
+                    </div>
+
+                </div>  
             </div>
 
         </footer>
