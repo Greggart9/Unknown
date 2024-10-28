@@ -192,51 +192,135 @@ return (
 
                         {/* Form */}
                         <form className='flex flex-col w-[480px] h-[570px] gap-8'>
+                             {/* Form field  */}
+                            <div className='w-[480px] h-[490px] gap-8'>
+                                {/* First and Last name */}
+                                <div className='flex gap-8 w-[480px] h-[70px] mb-5 '>
+                                    <div className='flex flex-col w-[224px] h-[70px] gap-[6px]'>
+                                        <label htmlFor='firstName' className='text-gray-700 w-[71px] h-[20px] text-xs leading-5 font-medium'>First Name</label>
+                                        <div className='flex justify-center items-center w-[224px] h-[44px] gap-2 border border-gray-300 py-[10px] px-[14px] rounded'>
+                                            <input type='text' id='firstName' placeholder='First Name' className='w-[196px] h-[24px] gap-2 outline-none'  /></div>
+                                    </div>
 
-                            {/* First and Last name */}
-                            <div className='flex gap-4 w-[480px] h-[70px]'>
-                                <div className='flex flex-col w-[224px] h-[70px] gap-[6px]'>
-                                    <label htmlFor='firstName' className='text-gray-700 w-[71px] h-[20px] text-xs leading-5 font-medium'>First Name</label>
-                                    <div className='flex justify-center items-center w-[224px] h-[44px] gap-2 border border-gray-300 py-[10px] px-[14px] rounded'>
-                                        <input type='text' id='firstName' placeholder='First Name' className='w-[196px] h-[24px] gap-2 outline-none'  /></div>
+                                    <div className='flex flex-col w-[224px] h-[70px] gap-[6px]'>
+                                        <label htmlFor='lastName' className='text-gray-700 w-[71px] h-[20px] text-xs leading-5 font-medium'>last Name</label>
+                                        <div className='flex justify-center items-center w-[224px] h-[44px] gap-2 border border-gray-300 py-[10px] px-[14px] rounded'>
+                                            <input type='text' id='lastName' placeholder='lastName' className='w-[196px] h-[24px] gap-2 outline-none'  /></div>
+                                        </div>
                                 </div>
 
-                                <div className='flex flex-col w-[224px] h-[70px] gap-[6px]'>
-                                    <label htmlFor='lastName' className='text-gray-700 w-[71px] h-[20px] text-xs leading-5 font-medium'>last Name</label>
-                                    <div className='flex justify-center items-center w-[224px] h-[44px] gap-2 border border-gray-300 py-[10px] px-[14px] rounded'>
-                                        <input type='text' id='lastName' placeholder='lastName' className='w-[196px] h-[24px] gap-2 outline-none'  /></div>
+                                {/* Email */}
+                                <div className='flex flex-col gap-[6px] w-[480px] h-[70px] mb-5 '>
+                                    <label htmlFor='email' className='text-gray-700 w-[36px] h-[20px] text-xs leading-5 font-medium'>Email</label>
+                                    
+                                    <div className='flex justify-center items-center w-[480px] h-[44px] gap-2 border border-gray-300 py-[10px] px-[14px] rounded'>
+                                    <input type='email' id='email' placeholder='greggart9@gmail.com' className='w-[452px] h-[24px] gap-2 outline-none p-2 rounded' />
+                                    </div>
                                 </div>
+                                
+                                {/* Phone Number */}
+                                <div className='flex flex-col  gap-[6px] w-[480px] h-[70px] mb-5'>
+                                    <label htmlFor='phone' className='text-gray-700 w-[98px] h-[20px] text-xs leading-5 font-medium'>Phone</label>
+                                    <div className='flex gap-2 w-[480px] h-[44px] border border-gray-300 p-2 rounded'>
+                                        <select id='countryCode' className='outline-none text-gray-900 text-lg font-normal leading-6'>
+                                            <option value='+1'>+1</option>
+                                            <option value='+44'>+44</option>
+                                            <option value='+91'>+91</option>
+                                            {/* Add more country codes as needed */}
+                                        </select>
+                                        <input type='text' id='phone' placeholder='+1 (555) 000-0000' className=' p-2 rounded flex-grow' />
+                                    </div>
+                                </div>
+
+                                {/* Text Box */}
+                                <div className='w-[480px] h-[160px] gap-[6px] mb-5 '>
+                                <div className='flex flex-col w-[480px] h-[160px] gap-[6px]'>
+                                    <label htmlFor='message' className='text-gray-700 w-[61px] h-[20px] font-medium text-sm leading-5'>Message</label>
+                                    <textarea id='message' rows='4' placeholder='Leave us a message...' className='border border-gray-300 p-2 rounded'></textarea>
+                                </div>
+                                </div>
+
+                                {/* Check box */}
+                                <div className='flex items-center w-[480px] h-[24px] gap-3 mb-5 '>
+                                    <input type='checkbox' id='subscribe' className='w-[20px] h-[22px] pt-[2px]' />
+                                    <label htmlFor='subscribe' className='text-gray-600 text-lg font-normal leading-6'>You agree to our friendly <span className='underline underline-offset-4'>privacy policy</span>.</label>
+                                </div>
+                            </div>
+
+                            {/* Actions */}
+                            <div className='w-[480px] h-[48px] gap-4'>
+                                <button className='w-[480px] h-[48px] bg-purple-600 text-white font-medium rounded-lg border border-purple-600 py-3 px-5'>Send message</button>
 
                             </div>
 
-                            {/* Email */}
-                            <div className='flex flex-col'>
-                                <label htmlFor='email' className='text-gray-700'>Email</label>
-                                <input type='email' id='email' placeholder='Email' className='border border-gray-300 p-2 rounded' />
-                            </div>
-                            <div className='flex gap-4'>
-                                <div className='flex flex-col'>
-                                    <label htmlFor='countryCode' className='text-gray-700'>Country Code</label>
-                                    <input type='text' id='countryCode' placeholder='+1' className='border border-gray-300 p-2 rounded' />
-                                </div>
-                                <div className='flex flex-col'>
-                                    <label htmlFor='phone' className='text-gray-700'>Phone</label>
-                                    <input type='text' id='phone' placeholder='Phone Number' className='border border-gray-300 p-2 rounded' />
-                                </div>
-                            </div>
-                            <div className='flex flex-col'>
-                                <label htmlFor='message' className='text-gray-700'>Message</label>
-                                <textarea id='message' rows='4' placeholder='Your message' className='border border-gray-300 p-2 rounded'></textarea>
-                            </div>
-                            <div className='flex items-center'>
-                                <input type='checkbox' id='subscribe' className='mr-2' />
-                                <label htmlFor='subscribe' className='text-gray-700'>Subscribe to our newsletter</label>
-                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
+
+        {/* ---------Section divider--------- */}
+        <section className='w-screen h-[1px] flex justify-center'>
+            <div className='w-[1280px] h-[2px] px-8'>
+                <hr/>
+
+            </div>
+        </section>
+
+        {/* Footer */}
+        <footer className='w-screen h-[320px] pt-16 pb-12 gap-16 flex flex-col items-center justify-center'>
+             {/* Container */}
+            <div className='w-[1280px] h-[88px] px-[32px] gap-12 flex justify-center'>
+
+                {/* Content */}
+                <div className=' flex w-[1216px] h-[88px] gap-8'>
+
+                    {/* Logo and Links */}
+                    <div className='relative w-[824px] h-[88px] gap-8'>
+                    {/* Logo */}
+                        <div className='absolute top-0 flex text-center w-[142px] h-[32px]'>
+                            <img src="\image\Logo.png" alt="logo" className='w-[32px] h-[32px]'/>
+                            <h2 className='w-[100px] h-[32px] text-center text-lg font-semibold '>Untitled UI</h2>
+                        </div>
+
+                        {/* footer links */}
+                        <div className=' absolute bottom-0 w-[824px] h-[24px] gap-8 flex'>
+                            <a href='/' className='text-gray-600 text-lg font-semibold leading-6'>Overview</a>
+                            <a href='/' className='text-gray-600 text-lg font-semibold leading-6'>Features</a>
+                            <a href='/' className='text-gray-600 text-lg font-semibold leading-6'>Pricing</a>
+                            <a href='/' className='text-gray-600 text-lg font-semibold leading-6'>Careers</a>
+                            <a href='/' className='text-gray-600 text-lg font-semibold leading-6'>Help</a>
+                            <a href='/' className='text-gray-600 text-lg font-semibold leading-6'>Privacy</a>
+                        </div>
+
+                    </div>
+                     
+                     {/* Newsletter */}
+                    <div  className='relative  w-[360px] h-[80px] gap-4'>
+                        <p className='h-[20px] text-gray-900 leading-5 font-semibold text-sm '>Stay up to date</p>
+
+                        <div className=' absolute bottom-0 flex h-[44px] gap-4'>
+                            <div className='w-[229px] border border-gray-300 rounded-lg flex items-center h-[44px] flex justify-center'>
+                                <input type='email' id='email' placeholder='Enter your email' className='w-[201px] h-[24px] outline-none bg-transparent'  />
+                            </div>
+                            
+                            <button className='border bg-purple-600 text-white border-purple-600 h-[44px] w-[115px] rounded-lg px-[18px] py-[10px]'>Subscribe</button>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+
+            </div>
+
+            <div className='w-[1280px] h-[56px] px-[32px] gap-8  bg-red-500'>
+                
+            </div>
+
+        </footer>
     </>
 )
 }
