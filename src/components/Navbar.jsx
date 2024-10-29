@@ -5,7 +5,7 @@ return (
     <>
     <nav className="flex justify-between items-center w-screen h-[80px] gap-8 text-white p-3 navbar navbar-expand-lg navbar-light bg-purple-800">
         <header className='flex justify-center items-center w-screen h-[80px]'>
-            <div className='w-[1280px] h-[44px] flex justify-between px-[32px]'>
+            <div className='w-[88.89%] h-[44px] flex justify-between'>
                 <div className='flex justify-center items-center w-[586px] h-[32px] gap-[40px]'>
                 {/* Logo */}
                     <div className='flex text-center w-[142px] h-[32px]'>
