@@ -11,11 +11,11 @@ return (
         {/* HERO HEADER SECTION */}
         <section className='bg-purple-800 text-white w-screen h-[1108px] py-[96px] gap-[64px] flex flex-col items-center justify-center'>
             {/* FIRST CONTAINER */}
-            <div className='bg-red-800 flex justify-center w-[90%] h-[416px] md:h-[336px] gap-8 '>
-                <div className='bg-red-700 w-[95%] gap-[48px]'>
+            <div className=' flex justify-center w-[90%] h-[416px] md:h-[336px] gap-8 '>
+                <div className='w-[95%] gap-[48px]'>
                     {/* SECTION 1 UP */}
-                    <div className='bg-red-600 max-w-[85%] h-[100%] flex flex-col justify-between'>
-                        <div className='bg-red-300 h-[228px] flex flex-col justify-between'>
+                    <div className='max-w-[85%] h-[100%] flex flex-col justify-between'>
+                        <div className='h-[228px] flex flex-col justify-between'>
                             <p className=' text-2xl md:text-4xl lg:text-5xl md:leading-10 font-medium h-[60%]'>
                                 We design physical <span className='underline underline-offset-8 overflow-hidden text-ellipsis whitespace-nowrap'>experiences</span> that create more happy in the world
                             </p>
@@ -27,7 +27,7 @@ return (
                         
 
                         {/* SECTION 1 BUTTONS */}
-                        <div className='bg-red-500 flex flex-col md:flex-row gap-[12px] h-[60px]'>
+                        <div className='flex flex-col md:flex-row gap-[12px] h-[60px]'>
                             <div className='flex items-center'>
                                 <button className='flex justify-center text-purple-900 items-center px-3 py-2 gap-1 bg-white rounded '>
                                     <img src='\image\img1.png' alt='button icon' className=' md:w-4 md:h-4' />
@@ -44,7 +44,7 @@ return (
             </div>
 
             {/* SECOND CONTAINER */}
-            <div className='bg-blue-900 flex justify-center w-[90%] h-[516px] items-center '>
+            <div className=' flex justify-center w-[90%] h-[516px] items-center '>
                 <div className='w-[95%] h-[100%]'>
                     <img src='\image\img2.png' alt='Interior design example' className='w-[100%] h-[100%]' />
                 </div>
@@ -52,13 +52,13 @@ return (
         </section>
 
         {/* SOCIAL PROOF SECTION */}
-        <section className='bg-purple-400 flex justify-center text-white w-screen pb-[96px] h-[200px]'>
-            <div className='bg-purple-500 w-[90%] h-[104px] flex flex-col gap-[32px] items-center'>
-                <div className='bg-purple-700 max-w-[95%] h-[24px] text-center'>
+        <section className='bg-purple-800 flex justify-center text-white w-screen pb-[96px] h-[200px]'>
+            <div className=' w-[90%] h-[104px] flex flex-col gap-[32px] items-center'>
+                <div className=' max-w-[95%] h-[24px] text-center'>
                     <p>We’ve worked with some great startups</p>
                 </div>
 
-                <div className='bg-purple-700 flex items-center w-[95%] h-[48px] justify-between'>
+                <div className=' flex items-center w-[95%] h-[48px] justify-between'>
                     <img src='/image/img3.png' alt='Startup 1' className='w-[14%]' />
                     <img src='/image/img4.png' alt='Startup 2' className='w-[14%]' />
                     <img src='/image/img5.png' alt='Startup 3' className='w-[14%]' />
@@ -70,24 +70,24 @@ return (
         </section>
 
         {/* FEATURES SECTION */}
-        <section className='bg-green-900 w-screen h-[1012px] flex flex-col items-center justify-center'>
+        <section className='bg-gray-50 w-screen h-[1012px] flex flex-col items-center justify-center'>
             {/* SECTION 3.1 */}
-            <div className='w-[100%] flex justify-center bg-white h-[496px] pt-[96px] pb-[160px] gap-[64px]'>
-                <div className='bg-green-700 flex justify-between w-[90%] h-[240px] '>
+            <div className='w-[100%] flex justify-center h-[496px] pt-[96px] pb-[160px] gap-[64px]'>
+                <div className='flex justify-between w-[90%] h-[240px] '>
                     {/* Heading and Supporting texts */}
-                    <div className='bg-green-600  w-[45%] h-[90%] gap-[20px]'>
+                    <div className='w-[45%] h-[90%] gap-[20px]'>
                         <div className='gap-[12px] w-[100%] h-[40%]'>
                             <p className='text-purple-700 h-[40%] font-semibold text-base'>Who we are</p>
-                            <p className=' flex items-center text-black font-bold bg-red-300 h-[60%] md:text-2xl text-xl'>Commercial interior designers</p>
+                            <p className=' flex items-center text-black font-bold h-[60%] lg:text-2xl text-xl'>Commercial interior designers</p>
                         </div>
-                        <p className='bg-green-200 w-[100%] h-[60%] text-xs lg:text-base text-gray-600 '>
+                        <p className='w-[100%] h-[60%] text-sm lg:text-base text-gray-600 '>
                             Untitled are a commercial interior design studio. We specialise in customised office design, restaurant design, shop design, and studio design.
                         </p>
                     </div>
 
                     {/* Content */}
-                    <div className='bg-green-500 w-[45%] h-[100%] flex flex-col justify-between'>
-                        <div className='bg-gray-200 flex w-[100%] h-[45%] gap-4'>
+                    <div className=' w-[45%] h-[100%] flex flex-col justify-between'>
+                        <div className='flex w-[100%] h-[45%] gap-4'>
                             <img src='\image\img9.png' alt='Icon' className='w-[48px] h-[48px]' />
 
                             <div className='w-[90%] h-[100%] gap-[20px]'>
@@ -98,7 +98,7 @@ return (
                             </div>
                         </div>
 
-                        <div className='bg-gray-200 flex w-[100%] h-[45%] gap-4'>
+                        <div className='flex w-[100%] h-[45%] gap-4'>
                             <img src='\image\img10.png' alt='Icon' className='w-[48px] h-[48px]' />
 
                             <div className='w-[90%] h-[100%] gap-[20px]'>
@@ -113,8 +113,8 @@ return (
             </div>
 
             {/* SECTION 3.2 */}
-            <div className='bg-orange-900 flex justify-center w-screen h-[612px] -mt-20 pb-[96px]'>
-                <div className='flex justify-center bg-orange-700 w-[90%] h-[516px]'>
+            <div className=' flex bg-white justify-center w-screen h-[612px] -mt-20 pb-[96px]'>
+                <div className='flex justify-center  w-[90%] h-[516px]'>
                     <img src='\image\img11.png' alt='Interior design example' className='w-[96%] h-[100%]'/>
                 </div>
             </div>
@@ -122,12 +122,12 @@ return (
 
         {/* Testimonial Content */}
         <section className='flex justify-center items-center w-screen h-[520px] py-[96px] bg-gray-50'>
-            <div className='bg-blue-900 flex justify-center w-[90%] h-[328px]'>
-                <div className='bg-blue-700 flex w-[95%] h-[100%] justify-between'>
+            <div className='flex justify-center w-[90%] h-[328px]'>
+                <div className='flex w-[95%] h-[100%] justify-between'>
                     <img src='\image\img12.png' alt='Testimonial-image' className='w-[25%] h-[100%] rounded-2xl' />
 
-                    <div className='bg-yellow-600 w-[50%] h-[80%]'>
-                        <div className='bg-red-800 w-[100%] h-[70%] flex flex-col'>
+                    <div className=' w-[50%] h-[80%]'>
+                        <div className=' w-[100%] h-[70%] flex flex-col'>
                             <img src='\image\img13.png' alt='Five stars' className='w-[20%] h-[10%] mb-3 ' />
 
                             <p className=' text-gray-900 leading-tight text-xl lg:text-2xl font-medium w-[100%]'>
@@ -135,7 +135,7 @@ return (
                             </p>
                         </div>
 
-                        <div className='bg-red-400 w-[100%] h-[30%] gap-[4px]'>
+                        <div className=' w-[100%] h-[30%] gap-[4px]'>
                             <p className='h-[28px] font-semibold text-lg leading-7 text-gray-900'>— Candice Wu</p>
                             <p className='h-[24px] font-normal text-xs leading-6 text-gray-600'>Head of Design, Layers</p>
                         </div>
@@ -145,9 +145,9 @@ return (
         </section>
 
         {/* Metric Section */}
-        <section className='flex justify-center items-center w-screen h-[432px] py-24 gap-16 bg-blue-300'>
-            <div className='flex justify-center bg-slate-400 items-center w-[90%] h-[240px] py-8 gap-16'>
-                <div className='flex justify-between bg-white items-center w-[95%] h-[240px] border-t border-b border-gray-200 py-16 '>
+        <section className='flex justify-center items-center w-screen h-[432px] py-24 gap-16 bg-white'>
+            <div className='flex justify-center  items-center w-[90%] h-[240px] py-8 gap-16'>
+                <div className='flex justify-between items-center w-[95%] h-[240px] border-t border-b border-gray-200 py-16 '>
                     <div>
                         <div className=' h-[112px] gap-5'>
                             <p className='leading-[72px] text-center font-semibold text-4xl lg:text-[3.75rem] text-gray-900'>400+</p>
@@ -181,20 +181,20 @@ return (
 
         {/* Contact sections */}
         <section className=' flex justify-center w-screen h-[960px] pb-[96px] gap-16 bg-white'>
-            <div className='bg-red-600 flex justify-center w-[95%] h-[864px] px-8 gap-8'>
-                <img src='\image\img14.png' alt='Contact' className='w-[52%] h-[864px]' />
+            <div className=' flex justify-center w-[95%] h-[864px] px-8 gap-8 lg:gap-32'>
+                <img src='\image\img14.png' alt='Contact' className='w-[52%] lg:w-[40%] h-[864px]' />
 
-                <div className='bg-green-700 flex justify-center items-center w-[50%] h-[864px]'>
+                <div className='flex justify-center items-center w-[50%] lg:w-[30%] h-[864px]'>
                     <div className='flex flex-col w-[100%] h-[100%] gap-12'>
 
                         {/* Heading and Supporting text */}
-                        <div className='bg-red-500 w-[100%] flex flex-col  h-[15%]'>
+                        <div className=' w-[100%] flex flex-col  h-[15%]'>
                             <p className='w-[100%] h-[45%] font-semibold text-3xl leading-7 text-gray-900'>Let's start your project</p>
                             <p className='w-[100%] h-[45%] font-normal text-xl leading-5 text-gray-600'>Our friendly team would love to hear from you.</p>
                         </div>
 
                         {/* Form */}
-                        <form className='bg-green-400 flex flex-col w-[100%] h-[85%] gap-8'>
+                        <form className=' flex flex-col w-[100%] h-[85%] gap-8'>
                              {/* Form field  */}
                             <div className='w-[100%] h-[490px] justify-between'>
                                 {/* First and Last name */}
@@ -246,7 +246,7 @@ return (
                                 {/* Check box */}
                                 <div className='flex items-center w-[100%] h-[24px] gap-3 mb-5'>
                                     <input type='checkbox' id='subscribe' className='w-[20px] h-[22px] pt-[2px]' />
-                                    <label htmlFor='subscribe' className='text-gray-600 text-lg font-normal leading-6'>You agree to our friendly <span className='underline underline-offset-4'>privacy policy</span>.</label>
+                                    <label htmlFor='subscribe' className='text-gray-600 md:text-lg font-normal leading-6'>You agree to our friendly <span className='underline underline-offset-4'>privacy policy</span>.</label>
                                 </div>
                             </div>
 
@@ -271,15 +271,15 @@ return (
         </section>
 
         {/* Footer */}
-        <footer className='bg-blue-600 w-screen h-[320px] pt-16 pb-12 gap-16 flex flex-col items-center justify-center'>
+        <footer className='w-screen h-[320px] pt-16 pb-12 gap-16 flex flex-col items-center justify-center'>
              {/* Container */}
-            <div className='bg-red-500 w-[90%] h-[50%] flex justify-center'>
+            <div className='w-[90%] h-[50%] flex justify-center'>
 
                 {/* Content */}
-                <div className='bg-orange-200 flex w-[93%] h-[88px] justify-between'>
+                <div className=' flex w-[93%] h-[88px] justify-between'>
 
                     {/* Logo and Links */}
-                    <div className='bg-green-500 flex flex-col justify-between w-[60%] h-[88px] gap-8'>
+                    <div className=' flex flex-col justify-between w-[58%] h-[88px] gap-8'>
                     {/* Logo */}
                         <div className=' flex text-center items-center w-[100%] h-[32px]'>
                             <img src="\image\Logo.png" alt="logo" className='w-[32px] h-[32px]'/>
@@ -299,7 +299,7 @@ return (
                     </div>
                      
                      {/* Newsletter */}
-                    <div  className='bg-blue-900 flex flex-col justify-between w-[40%] h-[100%] gap-4'>
+                    <div  className='flex flex-col justify-between w-[38%] h-[100%] gap-4'>
                         <p className='h-[20px] text-gray-900 leading-5 font-semibold text-sm '>Stay up to date</p>
 
                         <div className=' flex w-[100%] h-[44px] gap-4'>
@@ -320,11 +320,11 @@ return (
             </div>
              
              {/* Container 2 */}
-            <div className='bg-slate-500 w-[90%] h-[40%] px-[32px] gap-8 flex justify-center'>
-                <div className=' flex w-5/6 h-[56px] border-t-2 border-gray-200 pt-8 gap-8 '>
-                    <p className='text-gray-500 text-lg font-normal leading-6 w-[988px] h-[24px]'>© 2024 Untitled UI. All rights reserved.</p>
+            <div className=' w-[90%] h-[40%] flex justify-center'>
+                <div className=' flex justify-between w-[93%]  h-[56px] border-t-2 border-gray-200 pt-8'>
+                    <p className='text-gray-500 text-lg font-normal leading-6 w-[60%] h-[24px]'>© 2024 Untitled UI. All rights reserved.</p>
 
-                    <div className='w-[196px] h-[24px] gap-4 flex'>
+                    <div className='w-[30%] h-[24px] justify-end gap-4 flex'>
                         <a href='/' className='text-gray-500 text-lg font-normal leading-6'>Terms</a>
                         <a href='/' className='text-gray-500 text-lg font-normal leading-6'>Privacy</a>
                         <a href='/' className='text-gray-500 text-lg font-normal leading-6'>Cookies</a>

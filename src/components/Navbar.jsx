@@ -3,10 +3,10 @@ import React from 'react'
 const Navbar = ({ className, style }) => {
 return (
     <>
-    <nav className="flex justify-between items-center w-screen h-[80px] gap-8 text-white p-3 navbar navbar-expand-lg navbar-light bg-purple-800">
-        <header className='flex justify-center items-center w-screen h-[80px]'>
-            <div className='w-[88.89%] h-[44px] flex justify-between'>
-                <div className='flex justify-center items-center w-[586px] h-[32px] gap-[40px]'>
+    <nav className="flex justify-between items-center w-screen h-[80px] gap-8 text-white py-3 navbar navbar-expand-lg navbar-light bg-purple-800">
+        <header className='flex justify-center items-center w-[100%] h-[100%]'>
+            <div className='w-[90%] h-[44px] flex justify-between items-center'>
+                <div className=' flex justify-center items-center h-[32px] gap-[40px]'>
                 {/* Logo */}
                     <div className='flex text-center w-[142px] h-[32px]'>
                         <img src="\image\Logo.png" alt="logo" className='w-[32px] h-[32px]'/>
@@ -15,7 +15,7 @@ return (
 
                     {/* Navigation */}
                     <div className=''>
-                        <ul className='flex items-center w-[404px] h-[32px] gap-[32px]'>
+                        <ul className='flex items-center h-[32px] gap-[32px]'>
                             <li className='W-[46px] h-[24px] gap-[8px]'> <a href='#'>Home</a></li>
                             <li className='W-[98px] h-[32px] py-[4px]'>
                                 <select name="Products" id="Products" className='bg-purple-800 outline-none'>
@@ -38,7 +38,7 @@ return (
                 </div>
 
                 {/* NAVBAR BUTTON */}
-                <div className='W-[190px] h-[44px] gap-[12px]'>
+                <div className='  h-[44px] gap-[12px]'>
                         <button className=' hover:bg-purple-600 w-[83px] h-[44px] px-[18px] py-[10px] rounded-lg'>Log in</button>
                         <button className='hover:bg-purple-600  w-[95px] h-[44px] px-[18px] py-[10px] rounded-lg'>Sign up</button>
                 </div>
