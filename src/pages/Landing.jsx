@@ -9,15 +9,15 @@ return (
         </div>
 
         {/* HERO HEADER SECTION */}
-        <section className='bg-purple-800 text-white w-screen h-[1108px] py-[96px] gap-[64px] flex flex-col items-center justify-center'>
+        <section className='bg-purple-800 text-white w-screen h-[848px] md:h-[1108px] py-[64px] md:py-[96px] gap-[64px] flex flex-col items-center justify-center'>
             {/* FIRST CONTAINER */}
-            <div className=' flex justify-center w-[90%] h-[416px] md:h-[336px] gap-8 '>
-                <div className='w-[95%] gap-[48px]'>
+            <div className=' flex justify-center w-[90%] h-[416px] md:h-[336px] md:gap-8 '>
+                <div className='w-[95%] h-[100%] gap-8 md:gap-[48px]'>
                     {/* SECTION 1 UP */}
-                    <div className='max-w-[85%] h-[100%] flex flex-col justify-between'>
-                        <div className='h-[228px] flex flex-col justify-between'>
-                            <p className=' text-2xl md:text-4xl lg:text-5xl md:leading-10 font-medium h-[60%]'>
-                                We design physical <span className='underline underline-offset-8 overflow-hidden text-ellipsis whitespace-nowrap'>experiences</span> that create more happy in the world
+                    <div className='w-[100%] md:w-[85%] h-[100%] flex flex-col justify-between'>
+                        <div className='w-[100%] h-[228px] flex flex-col md:justify-between'>
+                            <p className=' text-3xl md:text-4xl lg:text-5xl w-[100%] md:leading-10 font-medium h-[60%]'>
+                                We design physical <span className='underline underline-offset-8 '>experiences</span> that create more happy in the world
                             </p>
                         
                             <p className='h-[40%] md:max-w-[80%] lg:max-w-[60%]'>
@@ -27,16 +27,16 @@ return (
                         
 
                         {/* SECTION 1 BUTTONS */}
-                        <div className='flex flex-col md:flex-row gap-[12px] h-[60px]'>
+                        <div className='flex flex-col md:flex-row gap-[12px] w-[100%] h-[108px] md:h-[60px]'>
                             <div className='flex items-center'>
-                                <button className='flex justify-center text-purple-900 items-center px-3 py-2 gap-1 bg-white rounded '>
+                                <button className='flex justify-center w-[100%] h-[48px] md:h-[38px] text-purple-900 items-center px-3 py-2 gap-1 bg-white rounded '>
                                     <img src='\image\img1.png' alt='button icon' className=' md:w-4 md:h-4' />
                                     <p className='font-medium'>Showreel</p>
                                 </button>
                             </div>
 
                             <div className='flex items-center'>
-                                <button className=' text-white px-3 py-2 gap-1 bg-purple-600 rounded font-medium '>Get in touch</button>
+                                <button className=' text-white w-[100%] h-[48px] md:h-[38px] px-3 py-2 gap-1 bg-purple-600 rounded font-medium '>Get in touch</button>
                             </div>
                         </div>
                     </div>
