@@ -44,7 +44,7 @@ return (
             </div>
 
             {/* SECOND CONTAINER */}
-            <div className=' flex justify-center w-[90%] h-[516px] items-center '>
+            <div className=' flex justify-center w-[90%] h-[240px] md:h-[516px] items-center '>
                 <div className='w-[95%] h-[100%]'>
                     <img src='\image\img2.png' alt='Interior design example' className='w-[100%] h-[100%]' />
                 </div>
@@ -52,28 +52,28 @@ return (
         </section>
 
         {/* SOCIAL PROOF SECTION */}
-        <section className='bg-purple-800 flex justify-center text-white w-screen pb-[96px] h-[200px]'>
-            <div className=' w-[90%] h-[104px] flex flex-col gap-[32px] items-center'>
+        <section className='bg-purple-800 flex justify-center text-white w-screen pb-[64px] md:pb-[96px] h-[260px] md:h-[200px]'>
+            <div className=' w-[90%] h-[196] md:h-[104px] flex flex-col gap-[32px] items-center'>
                 <div className=' max-w-[95%] h-[24px] text-center'>
-                    <p>We’ve worked with some great startups</p>
+                    <p className='font-medium text-lg'>We’ve worked with some great startups</p>
                 </div>
 
-                <div className=' flex items-center w-[95%] h-[48px] justify-between'>
-                    <img src='/image/img3.png' alt='Startup 1' className='w-[14%]' />
-                    <img src='/image/img4.png' alt='Startup 2' className='w-[14%]' />
-                    <img src='/image/img5.png' alt='Startup 3' className='w-[14%]' />
-                    <img src='/image/img6.png' alt='Startup 4' className='w-[14%]' />
-                    <img src='/image/img7.png' alt='Startup 5' className='w-[14%]' />
-                    <img src='/image/img8.png' alt='Startup 6' className='w-[14%]' />
+                <div className=' flex flex-wrap items-center w-[95%] h-[48px] gap-4 justify-between'>
+                    <img src='/image/img3.png' alt='Startup 1' className='w-[46%] md:w-[14%]' />
+                    <img src='/image/img4.png' alt='Startup 2' className='w-[46%] md:w-[14%]' />
+                    <img src='/image/img5.png' alt='Startup 3' className='w-[46%] md:w-[14%]' />
+                    <img src='/image/img6.png' alt='Startup 4' className='w-[46%] md:w-[14%]' />
+                    <img src='/image/img7.png' alt='Startup 5' className='w-[46%] md:w-[14%]' />
+                    <img src='/image/img8.png' alt='Startup 6' className='w-[46%] md:w-[14%]' />
                 </div>
             </div>
         </section>
 
         {/* FEATURES SECTION */}
-        <section className='bg-gray-50 w-screen h-[1012px] flex flex-col items-center justify-center'>
+        <section className='bg-gray-50 w-screen h-[1008px] pb-16 md:pb-0 md:h-[1012px] flex flex-col items-center justify-center'>
             {/* SECTION 3.1 */}
-            <div className='w-[100%] flex justify-center h-[496px] pt-[96px] pb-[160px] gap-[64px]'>
-                <div className='flex justify-between w-[90%] h-[240px] '>
+            <div className='w-[100%] flex justify-center h-[768px] md:h-[496px] pt-[64px] md:pt-[96px] pb-[112px] md:pb-[160px] gap-12 md:gap-[64px]'>
+                <div className='flex flex-col md:flex-row justify-between md:w-[90%] h-[240px] '>
                     {/* Heading and Supporting texts */}
                     <div className='w-[45%] h-[90%] gap-[20px]'>
                         <div className='gap-[12px] w-[100%] h-[40%]'>
