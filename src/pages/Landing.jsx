@@ -30,7 +30,7 @@ return (
                         <div className='flex flex-col md:flex-row gap-[12px] w-[100%] h-[108px] md:h-[60px]'>
                             <div className='flex items-center'>
                                 <button className='flex justify-center w-[100%] h-[48px] md:h-[38px] text-purple-900 items-center px-3 py-2 gap-1 bg-white rounded '>
-                                    <img src='\image\img1.png' alt='button icon' className=' md:w-4 md:h-4' />
+                                    <img src='/image/img1.png' alt='button icon' className=' md:w-4 md:h-4' />
                                     <p className='font-medium'>Showreel</p>
                                 </button>
                             </div>
@@ -46,7 +46,7 @@ return (
             {/* SECOND CONTAINER */}
             <div className=' flex justify-center w-[90%] h-[240px] md:h-[516px] items-center '>
                 <div className='w-[95%] h-[100%]'>
-                    <img src='\image\img2.png' alt='Interior design example' className='w-[100%] h-[100%]' />
+                    <img src='/image/img2.png' alt='Interior design example' className='w-[100%] h-[100%]' />
                 </div>
             </div>
         </section>
@@ -88,7 +88,7 @@ return (
                     {/* Content */}
                     <div className=' w-[100%] md:w-[45%] h-[65%] md:h-[100%] flex flex-col gap-3 md:justify-between'>
                         <div className='flex w-[100%] h-[45%] gap-4'>
-                            <img src='\image\img9.png' alt='Icon' className='w-[48px] h-[48px]' />
+                            <img src='/image/img9.png' alt='Icon' className='w-[48px] h-[48px]' />
 
                             <div className='w-[90%] h-[100%] gap-[20px]'>
                                 <p className='h-[30%] flex items-center font-bold text-xl md:text-lg lg:text-xl'>Share team inboxes</p>
@@ -99,7 +99,7 @@ return (
                         </div>
 
                         <div className='flex w-[100%] h-[45%] gap-4'>
-                            <img src='\image\img10.png' alt='Icon' className='w-[48px] h-[48px]' />
+                            <img src='/image/img10.png' alt='Icon' className='w-[48px] h-[48px]' />
 
                             <div className='w-[90%] h-[100%] gap-[20px]'>
                                 <p className='h-[30%] flex items-center font-bold text-xl md:text-lg lg:text-xl'>Deliver instant answers</p>
@@ -115,7 +115,7 @@ return (
             {/* SECTION 3.2 */}
             <div className=' flex bg-white justify-center w-screen h-[240px] md:h-[612px] -mt-20 md:pb-[96px]'>
                 <div className='flex justify-center  w-[100%] h-[100%]'>
-                    <img src='\image\img11.png' alt='Interior design example' className='w-[90%] h-[100%]'/>
+                    <img src='/image/img11.png' alt='Interior design example' className='w-[90%] h-[100%]'/>
                 </div>
             </div>
         </section>
@@ -124,11 +124,11 @@ return (
         <section className='flex justify-center items-center w-screen h-[652px] md:h-[520px] py-[64px] md:py-[96px] bg-gray-50'>
             <div className='flex justify-center w-[90%] h-[524px] md:h-[328px]'>
                 <div className='flex flex-col md:flex-row w-[100%] h-[100%] justify-between'>
-                    <img src='\image\img12.png' alt='Testimonial-image' className=' max-w-[200px] md:max-w-[328px] max-h-[200px] md:max-h-[328px] rounded-2xl' />
+                    <img src='/image/img12.png' alt='Testimonial-image' className=' max-w-[200px] md:max-w-[328px] max-h-[200px] md:max-h-[328px] rounded-2xl' />
 
                     <div className=' w-[100%] md:w-[50%] h-[50%] md:h-[80%]'>
                         <div className=' w-[100%] h-[70%] flex flex-col'>
-                            <img src='\image\img13.png' alt='Five stars' className='max-w-[116px] max-h-[20px] mb-3 ' />
+                            <img src='/image/img13.png' alt='Five stars' className='max-w-[116px] max-h-[20px] mb-3 ' />
 
                             <p className=' text-gray-900 md:leading-tight text-xl lg:text-3xl font-medium w-[100%]'>
                                 Untitled really understood the paired-back aesthetic that we were looking for. We couldn’t be happier with our new offices.
@@ -182,7 +182,7 @@ return (
         {/* Contact sections */}
         <section className=' flex justify-center w-screen h-[886px] md:h-[960px] pb-16 md:pb-[96px] gap-12 md:gap-16 '>
             <div className=' flex justify-center w-[98%] md:w-[95%] h-[864px] px-8 gap-8 lg:gap-32'>
-                <img src='\image\img14.png' alt='Contact' className='hidden md:block  md:w-[52%] lg:w-[40%] md:h-[864px]' />
+                <img src='/image/img14.png' alt='Contact' className='hidden md:block  md:w-[52%] lg:w-[40%] md:h-[864px]' />
 
                 <div className='flex justify-center items-center w-[100%] md:w-[50%] lg:w-[30%] h-[100%] md:h-[864px]'>
                     <div className='flex flex-col w-[100%] h-[100%] gap-12'>
@@ -282,7 +282,7 @@ return (
                     <div className='flex flex-col md:justify-between w-[100%] md:w-[58%] h-[160px] md:h-[88px] md:gap-8'>
                       {/* Logo */}
                         <div className=' flex text-center items-center w-[100%] h-[32px]'>
-                            <img src="\image\Logo.png" alt="logo" className='w-[32px] h-[32px]'/>
+                            <img src="/image/Logo.png" alt="logo" className='w-[32px] h-[32px]'/>
                             <h2 className='w-[100px] h-[32px] text-center text-lg md:text-normal lg:text-lg font-semibold '>Untitled UI</h2>
                         </div>
 
