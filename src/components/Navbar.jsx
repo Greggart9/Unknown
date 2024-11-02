@@ -1,5 +1,6 @@
 import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
+import Logo from '../assets/Logo.png';
 
 const Navbar = ({ className, style }) => {
     const [menuOpen, setMenuOpen] = React.useState(false);
@@ -11,7 +12,7 @@ return (
                 <div className=' flex justify-center items-center h-[32px] gap-[40px]'>
                 {/* Logo */}
                     <div className='flex text-center w-[142px] h-[32px]'>
-                        <img src={`${process.env.PUBLIC_URL}/image/Logo.png`} alt="logo" className='w-[32px] h-[32px]'/>
+                        <img src={Logo}alt="logo" className='w-[32px] h-[32px]'/>
                         <h2 className='w-[100px] h-[32px] left-[42px]'>Untitled UI</h2>
                     </div>
 
