@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import img1 from '../assets/img1.png';
+import img2 from '../assets/img2.png';
 
 const Landing = () => {
 return (
@@ -30,7 +32,7 @@ return (
                         <div className='flex flex-col md:flex-row gap-[12px] w-[100%] h-[108px] md:h-[60px]'>
                             <div className='flex items-center'>
                                 <button className='flex justify-center w-[100%] h-[48px] md:h-[38px] text-purple-900 items-center px-3 py-2 gap-1 bg-white rounded '>
-                                    <img src='/image/img1.png' alt='button icon' className=' md:w-4 md:h-4' />
+                                    <img  src={img1} alt='button icon' className=' md:w-4 md:h-4' />
                                     <p className='font-medium'>Showreel</p>
                                 </button>
                             </div>
@@ -46,7 +48,7 @@ return (
             {/* SECOND CONTAINER */}
             <div className=' flex justify-center w-[90%] h-[240px] md:h-[516px] items-center '>
                 <div className='w-[95%] h-[100%]'>
-                    <img src='/image/img2.png' alt='Interior design example' className='w-[100%] h-[100%]' />
+                    <img  src={img2} alt='Interior design example' className='w-[100%] h-[100%]' />
                 </div>
             </div>
         </section>
